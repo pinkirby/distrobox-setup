@@ -22,7 +22,7 @@ RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && loca
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
 
-# ENV TERM=xterm-256-color256
+ENV TERM=xterm-256color
 
 # RUN useradd -m -s /usr/bin/zsh user
 # RUN echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
